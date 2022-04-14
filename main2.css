@@ -1,0 +1,47 @@
+#outDiv{ position: relative;
+     }
+
+.calTbc{  /*電卓本体*/
+   background-color: #000000;
+   border-radius: 10px;
+   font-size: 20px;
+     }
+
+.calTbc input{ /*数値と演算子ボタン*/
+   width: 60px;
+   color: #000000;
+   background-color: #ffffff;
+   border-width: 3px;
+   border-radius: 7px; 
+   font-size: 1em;
+   font-weight: bold;
+   cursor: default;
+     }
+
+.calTbc #dispBox{ /*演算ボックス*/
+   width: 170px;
+   color: #000000;
+   background-color: #ffffff;
+   margin-left: 3px;
+   text-align: right;
+   font-size: 1.5em;
+   font-weight: bold;
+     }
+
+.calTbc td{
+   padding: 0px 0px 5px 5px;
+     }
+
+.calTbc th{
+   padding: 5px 4px;
+     }
+
+.calTbc #aC{
+   color: #000000;
+   background-color: #ffffff;
+     }
+
+.calTbc input[type=button]:hover, 
+.calTbc #aC:hover{
+   background-color: #a9a9a9;
+     }
